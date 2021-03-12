@@ -1,0 +1,35 @@
+// colors
+
+    $primary-blue : #047aed;
+    $shadow :  1px 1px 4px #2565ae;
+    $white: #fff;
+    $dark-btn-color: #a1a1af85;
+    $footer-dark : rgb(70, 66, 66);
+    $box-shadow-light : #e6ecf8;
+    $hi-btn-dark : #0b2d4e;
+    $hi-btn-dark-hover : #05080c;
+
+
+body [color-theme="light"] {
+    $primary-blue : red !important;
+    $shadow :  1px 1px 4px #2565ae;
+    $white: #fff;
+    $dark-btn-color: #a1a1af85;
+    $footer-dark : rgb(70, 66, 66);
+    $box-shadow-light : #e6ecf8;
+    $hi-btn-dark : #0b2d4e;
+    $hi-btn-dark-hover : #05080c;
+}
+
+// other
+$white-border-2 : 2px $white solid;
+$dark-transition : all 0.2s;
+$shadow :  1px 1px 4px #2565ae;
+
+html[data-theme='dark'] {
+    $primary-blue : red;
+}
+
+.darkmode-toggle {
+    background: red;
+}
