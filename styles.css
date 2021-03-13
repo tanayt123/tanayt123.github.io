@@ -42,13 +42,5 @@ p {
   height: 100%;
   margin: 0 2em;
 }
-.darkmode-toggle {
-  z-index: 1000;
-}
-.darkmode--activated .navbar {
-  background: #0c0032 !important;
-  transition: all 2s;
-  box-shadow: 1px 1px 4px #212121 !important;
-}
 
 /*# sourceMappingURL=styles.css.map*/
